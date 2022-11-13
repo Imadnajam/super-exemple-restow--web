@@ -1,0 +1,475 @@
+
+*{
+    padding: 0%;
+    margin: 0%;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Indie Flower', cursive;
+}
+nav{
+    background-color: rgb(255, 255, 255);
+    background-position: center ;
+    background-size: cover;
+    height: 80px;
+    width: 100%;
+}
+label{cursor: pointer;
+    color: black;
+    font-size: 36px;
+    line-height: 80px;
+    padding:0 100px;
+    font-weight: bold;
+    
+}
+
+nav img{
+    float: left;
+    width: 80px;
+}
+
+nav ul{color:rgb(255, 255, 255);
+    float: right;
+    margin-right: 20px;
+    gap: 100px;
+}
+nav ul li {
+    display: inline-block;
+    
+    line-height: 80px;
+    margin:0 5px;
+    color: rgb(0, 0, 0);
+}
+a{
+    
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+    text-transform: uppercase;
+}
+section{
+    padding-top: 20em;
+    background-image: url("Italy\ skyline.jpg");
+    background-position: center;
+    background-size: cover;
+}
+section div {
+    position: absolute;
+    top: 13rem;
+    right: 30rem;
+    
+    
+}
+section div input {
+    
+    padding : 10px;
+    border: none;
+    padding-left: 100px;
+    
+    
+}
+section h2 {
+    color: white;
+    font-size: medium;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    position: absolute;
+    top: 51%;
+    left: 5%;
+}
+
+span{
+    color: rgb(255, 255, 255);
+    
+    animation: echange 10s ease-in-out;  
+}
+
+@keyframes echange{
+    from{
+        opacity: 0;
+        transform: translateY(100px);
+
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0px) ;
+    }
+}
+
+#button { 
+    color: white;
+    background-color: rgb(61, 192, 57);
+    cursor: progress;
+    padding : 10px;
+    border: none;
+     
+}
+article{
+    padding-bottom:150rem;
+background-color: rgba(0, 0, 0, 0.13);
+
+
+
+}
+article h1{
+text-decoration: underline;
+position:absolute;
+top: 40ch;
+left: 60ch;
+
+}
+#d0{
+    
+    padding-right: 10rem;
+    border-radius: 2ch;
+    background-color: white;
+    margin: 5px;
+    position: absolute;
+    top: 30rem;
+    left: 3rem;
+}
+#d0 img {
+    margin: 5%;
+    border-radius: 1ch;
+    width: 100px;
+}
+#d0 div{
+    position: relative;
+    left: 8rem;
+    top: -5rem;
+}
+#d0 div button{
+    cursor: pointer;
+    width: 10rem;
+    height: 2rem;
+    background-color: green;
+    color: white;
+    border-color: green;
+}
+#d1{
+    padding-right: 10rem;
+    border-radius: 2ch;
+    background-color: white;
+    margin: 5px;
+    position: absolute;
+    top: 30rem;
+    right: 3rem;
+}
+#d1 img{
+    margin: 4%;
+    border-radius: 1ch;
+    width: 90px;
+}
+#d1 div{
+    position: relative;
+    left: 8rem;
+    top: -5rem;
+}
+#d1 div button{
+    cursor: pointer;
+    width: 10rem;
+    height: 2rem;
+    background-color: green;
+    color: white;
+    border-color: green;
+}
+#d2{
+    padding-right: 10rem;
+    border-radius: 2ch;
+    background-color: white;
+    margin: 5px;
+    position: absolute;
+    top: 50rem;
+    left: 3rem;
+}
+#d2 img{
+    margin: 4%;
+    border-radius: 1ch;
+    width: 100px;
+}
+#d2 div{
+    position: relative;
+    left: 8rem;
+    top: -5rem;
+}
+#d2 div button{
+    cursor: pointer;
+    width: 10rem;
+    height: 2rem;
+    background-color: green;
+    color: white;
+    border-color: green;
+}
+#d3{
+    padding-right: 10rem;
+    border-radius: 2ch;
+    background-color: white;
+    margin: 5px;
+    position: absolute;
+    top: 50rem;
+    right: 3rem;
+}
+#d3 img{
+    margin: 4%;
+    border-radius: 1ch;
+    width: 80px;
+}
+#d3 div{
+    position: relative;
+    left: 8rem;
+    top: -5rem;
+}
+#d3 div button{
+    cursor: pointer;
+    width: 10rem;
+    height: 2rem;
+    background-color: green;
+    color: white;
+    border-color: green;
+}
+#d4{
+    padding-right: 10rem;
+    border-radius: 2ch;
+    background-color: white;
+    margin: 5px;
+    position: absolute;
+    top: 70rem;
+    left: 3rem;
+}
+#d4 img{
+    margin: 4%;
+    border-radius: 1ch;
+    width: 100px;
+}
+#d4 div{
+    position: relative;
+    left: 8rem;
+    top: -5rem;
+}
+#d4 div button{
+    cursor: pointer;
+    width: 10rem;
+    height: 2rem;
+    background-color: green;
+    color: white;
+    border-color: green;
+}
+#d5{
+    padding-right: 10rem;
+    border-radius: 2ch;
+    background-color: white;
+    margin: 5px;
+    position: absolute;
+    top: 70rem;
+    right: 3rem;
+}
+#d5 img{
+    margin: 4%;
+    border-radius: 1ch;
+    width: 100px;
+}
+#d5 div{
+    position: relative;
+    left: 8rem;
+    top: -5rem;
+}
+#d5 div button{
+    cursor: pointer;
+    width: 10rem;
+    height: 2rem;
+    background-color: green;
+    color: white;
+    border-color: green;
+}
+.Menu1{
+    position: absolute;
+    top: 92rem;
+    left: 38rem;
+}
+#d6{
+    padding-right: 10rem;
+    border-radius: 2ch;
+    background-color: white;
+    margin: 5px;
+    position: absolute;
+    top: 95rem;
+    left: 3rem;
+}
+#d6 img{
+    margin: 4%;
+    border-radius: 1ch;
+    width: 100px;
+}
+#d6 div{
+    position: relative;
+    left: 8rem;
+    top: -5rem;
+}
+#d6 div button{
+    cursor: pointer;
+    width: 10rem;
+    height: 2rem;
+    background-color: green;
+    color: white;
+    border-color: green;
+}
+#d7{
+    padding-right: 10rem;
+    border-radius: 2ch;
+    background-color: white;
+    margin: 5px;
+    position: absolute;
+    top: 95rem;
+    right: 3rem;
+}
+#d7 img{
+    margin: 4%;
+    border-radius: 1ch;
+    width: 95px;
+}
+#d7 div{
+    position: relative;
+    left: 8rem;
+    top: -5rem;
+}
+#d7 div button{
+    cursor: pointer;
+    width: 10rem;
+    height: 2rem;
+    background-color: green;
+    color: white;
+    border-color: green;
+}
+#d8{
+    padding-right: 10rem;
+    border-radius: 2ch;
+    background-color: white;
+    margin: 5px;
+    position: absolute;
+    top: 115rem;
+    left: 3rem;
+}
+#d8 img{
+    margin: 4%;
+    border-radius: 1ch;
+    width: 90px;
+}
+#d8 div{
+    position: relative;
+    left: 8rem;
+    top: -5rem;
+}
+#d8 div button{
+    cursor: pointer;
+    width: 10rem;
+    height: 2rem;
+    background-color: green;
+    color: white;
+    border-color: green;
+}
+#d9{
+    padding-right: 10rem;
+    border-radius: 2ch;
+    background-color: white;
+    margin: 5px;
+    position: absolute;
+    top: 115rem;
+    right: 3rem;
+}
+#d9 img{
+    margin: 4%;
+    border-radius: 1ch;
+    width: 100px;
+}
+#d9 div{
+    position: relative;
+    left: 8rem;
+    top: -5rem;
+}
+#d9 div button{
+    cursor: pointer;
+    width: 10rem;
+    height: 2rem;
+    background-color: green;
+    color: white;
+    border-color: green;
+}
+#d10{
+    padding-right: 10rem;
+    border-radius: 2ch;
+    background-color: white;
+    margin: 5px;
+    position: absolute;
+    top: 135rem;
+    left: 3rem;
+}
+#d10 img{
+    margin: 4%;
+    border-radius: 1ch;
+    width: 100px;
+}
+#d10 div{
+    position: relative;
+    left: 8rem;
+    top: -5rem;
+}
+#d10 div button{
+    cursor: pointer;
+    width: 10rem;
+    height: 2rem;
+    background-color: green;
+    color: white;
+    border-color: green;
+}
+#d11{
+    padding-right: 10rem;
+    border-radius: 2ch;
+    background-color: white;
+    margin: 5px;
+    position: absolute;
+    top: 135rem;
+    right: 3rem;
+}
+#d11 img{
+    margin: 4%;
+    border-radius: 1ch;
+    width: 100px;
+}
+#d11 div{
+    position: relative;
+    left: 8rem;
+    top: -5rem;
+}
+#d11 div button{
+    cursor: pointer;
+    width: 10rem;
+    height: 2rem;
+    background-color: green;
+    color: white;
+    border-color: green;
+}
+#iframe1{
+
+position: absolute;
+top: 156rem;
+
+}
+footer{
+    margin-top: 5%;
+    padding-bottom:5rem;
+    background-color:rgb(0, 0, 0);
+    color: white;
+    
+}
+#f1{
+    position: absolute;
+    top: 180rem;
+}
+footer a{
+    color: white;
+}
+#ulf{
+    color: white;
+    font-size: 50px;
+    text-align: center;
+}
